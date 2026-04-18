@@ -1,0 +1,10 @@
+backend/
+│── app.py                 # Main application entry point
+│── db.py                  # PostgreSQL connection setup using psycopg2
+├── requirements.txt       # flask, psycopg2-binary, flask-cors
+└── routes/
+    ├── auth.py            # Login logic
+    ├── vehicles.py        # Search and Vehicle Details logic
+    ├── transactions.py    # Purchase and Sales logic
+    ├── parts.py           # Add parts, update status
+    └── reports.py         # The 5 Operating Manager reports
